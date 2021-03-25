@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Financial Modeling Prep API Client",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "watch-ts": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1",
