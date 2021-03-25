@@ -10,9 +10,8 @@
   },
   "files": [
     "dist/*.js",
-    "dist/*.css",
-    "dist/locales/*.json",
-    "types/*.d.ts"
+    "dist/*.d.ts",
+    "dist/*.map"
   ],
   "repository": {
     "type": "git",
