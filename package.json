@@ -2,10 +2,19 @@
   "name": "financialmodelingprep-openapi",
   "version": "0.0.1",
   "description": "Financial Modeling Prep API Client",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:specs": "npx openapi-typescript FMP.yaml -o one.ts"
   },
+  "files": [
+    "src",
+    "dist/*.js",
+    "dist/*.css",
+    "dist/locales/*.json",
+    "types/*.d.ts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GoPlan-Finance/financialmodelingprep-openapi.git"
@@ -18,9 +27,15 @@
     "openapi"
   ],
   "author": "Samuel Denis-D'Ortun",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi/issues"
   },
-  "homepage": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi#readme"
+  "homepage": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
