@@ -1,0 +1,26 @@
+{
+  "name": "financialmodelingprep-openapi",
+  "version": "0.0.1",
+  "description": "Financial Modeling Prep API Client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoPlan-Finance/financialmodelingprep-openapi.git"
+  },
+  "keywords": [
+    "fmp",
+    "financialmodelingprep",
+    "api",
+    "client",
+    "openapi"
+  ],
+  "author": "Samuel Denis-D'Ortun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi/issues"
+  },
+  "homepage": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi#readme"
+}
