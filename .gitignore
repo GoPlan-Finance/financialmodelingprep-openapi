@@ -107,3 +107,4 @@ dist
 /backend/config/config.ts
 /.idea/dbnavigator.xml
 /.idea/inspectionProfiles/Project_Default.xml
+/package-lock.json
