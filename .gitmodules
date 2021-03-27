@@ -1,0 +1,3 @@
+[submodule "languages/python"]
+	path = languages/python
+	url = https://github.com/GoPlan-Finance/financialmodelingprep-openapi-py.git

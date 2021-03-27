@@ -1,6 +1,11 @@
 
+# Hello fellow devloppers, feel free to replace theses .bat files with someting that will work across all platforms :)
 
+pushd languages\js
+generate.bat
+popd
 
-
-docker run --rm -v "%CD%/:/local" openapitools/openapi-generator-cli generate  -i /local/FMP.yaml    -g typescript-axios  -o /local/src/
+pushd languages\python
+generate.bat
+popd
 
