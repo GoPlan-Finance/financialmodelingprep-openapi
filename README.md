@@ -23,7 +23,7 @@
 - Rating
 - DCF Real-time
 - Market Capitalization
--️ :white_check_mark: Symbols List 
+- :white_check_mark: Symbols List
 - :white_check_mark: ETF List
 - :white_check_mark: Tradable Symbols List
 - Batch Request 
