@@ -6,7 +6,7 @@ This repository contains the OpenApi generator(s), if you only want to use the c
 - [Python Client](https://github.com/GoPlan-Finance/financialmodelingprep-openapi-python)
 - [Javascript / Typescript Client](https://github.com/GoPlan-Finance/financialmodelingprep-openapi-js)
 
-
+If your favorite language is not listed above, feel free to open an Issue or submit a PR ! 
 
 
 ## Status
