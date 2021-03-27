@@ -1,3 +1,6 @@
 [submodule "languages/python"]
 	path = languages/python
 	url = https://github.com/GoPlan-Finance/financialmodelingprep-openapi-py.git
+[submodule "languages/javascript"]
+	path = languages/javascript
+	url = https://github.com/GoPlan-Finance/financialmodelingprep-openapi-js.git
