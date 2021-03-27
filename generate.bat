@@ -1,7 +1,7 @@
 
 # Hello fellow devloppers, feel free to replace theses .bat files with someting that will work across all platforms :)
 
-pushd languages\js
+pushd languages\javascript
 generate.bat
 popd
 
