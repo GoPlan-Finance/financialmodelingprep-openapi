@@ -10,40 +10,40 @@ This repository contains the OpenApi generator(s), if you only want to use the c
 
 
 ## Status
-- :white_check_mark:  Fully implemented
-- :yellow_square:   Partially implemented
-
+- ✅  Fully implemented
+- 🟨   Partially implemented
+- ⏳ Will be implemented soon
 
 ### Company Valuation
-- Profile Minute
-- Quote Real-time
-- Key Executives
-- Search Real-time
+- ⏳ Profile
+- ⏳ Quote 
+- ⏳ Key Executives
+- Search 
 - Financials ZIP
-- Financial Statements Annual/Quarter
+- Financial Statements 
 - Financial Statements List
-- Financial Statements Growth Annual
-- International Filings Annual/Quarter
+- Financial Statements Growth 
+- International Filings 
 - Financial Statements As Reported
-- Financial Ratios Annual/Quarter
-- Enterprise Value Annual/Quarter
-- Key Metrics Annual/Quarter
-- Financial Growth Annual/Quarter
-- Rating
-- DCF Real-time
-- Market Capitalization
-- :white_check_mark: Symbols List
-- :white_check_mark: ETF List
-- :white_check_mark: Tradable Symbols List
+- Financial Ratios 
+- Enterprise Value 
+- ⏳ Key Metrics 
+- Financial Growth 
+- ⏳ Rating
+- DCF 
+- ⏳ Market Capitalization
+- ✅ Symbols List
+- ✅ ETF List
+- ✅ Tradable Symbols List
 - Batch Request 
 - Stock Screener
 - Delisted Companies
-- Stocks Popular
+- ⏳  Stocks Popular
 - Earning Call Transcript
 - Earnings Surprises
 - SEC Filings
-- Press Releases
-- Company Outlook
+- ⏳ Press Releases
+- ⏳ Company Outlook
 
 
 ### Insider Trading
@@ -52,45 +52,45 @@ This repository contains the OpenApi generator(s), if you only want to use the c
 
 
 ### Calendars
-- Earnings Calendar Popular
+- ⏳ Earnings Calendar Popular
 - IPO Calendar
-- Stock Split Calendar
-- Dividend Calendar
-- Economic Calendar
+- ⏳ Stock Split Calendar
+- ⏳ Dividend Calendar
+- ⏳ Economic Calendar
 
 
 ### Institutional Fund
 - Institutional Holders
 - Mutual Fund Holders
-- ETF Holders Popular
-- ETF Sector Weightings
-- ETF Country Weightings
-- SEC RSS Feeds Real-time
+- ⏳ ETF Holders Popular
+- ⏳ ETF Sector Weightings
+- ⏳ ETF Country Weightings
+- SEC RSS Feeds 
 - Form 13F
 
 
-### Stock Time Series
-- Price Real-time
-- :white_check_mark: Historical Price 1/5/15/30min/1hr/Daily
-- Historical Dividends
-- Historical Stock Splits
+### Stock Time Series 
+- ⏳ Price  (Real time)
+- ✅ Historical Price 
+- ⏳ Historical Dividends
+- ⏳ Historical Stock Splits
 - Survivorship Bias Free
 
 
 ### Technical Indicators
-- Indicators
-- Intraday Indicators
+- ⏳ Indicators
+- ⏳ Intraday Indicators
 
 
 ### Market Indexes
-- Majors Indexes Real-time
+- ⏳ Majors Indexes 
 - List of S&P 500 companies
 - Historical S&P 500
 - List of Nasdaq 100 companies
 - Historical Nasdaq 100
 - List of Dow Jones companies
 - Historical Dow Jones
-- Historical Stock Index prices 1/5/15min
+- Historical Stock Index prices 
 
 ### Alternative Data
 - COT Trading Symbols List
@@ -98,43 +98,43 @@ This repository contains the OpenApi generator(s), if you only want to use the c
 - Commitments of Traders Analysis
 
 ### Commodities
-- Prices Real-time
-- :white_check_mark: Historical commodities prices 1/5/15min
+- ⏳  Prices 
+- ✅ Historical commodities prices 
 
 
 ### ETF
-- Prices Real-time
-- :white_check_mark: Historical ETF prices 1/5/15min
+- ⏳ Prices 
+- ✅ Historical ETF prices 
 
 ### Mutual Funds
-- Prices Real-time
-- :white_check_mark: Historical Mutual Funds prices 1/5/15min
+- ⏳ Prices 
+- ✅ Historical Mutual Funds prices 
 
 
  ### EuroNext
-- Prices Real-time
-- :white_check_mark: Historical EuroNext prices 1/5/15min
+- ⏳ Prices 
+- ✅ Historical EuroNext prices 
 
 
  ### TSX
-- Prices 1 Min
-- :white_check_mark: Historical TSX prices 1/5/15min
+- ⏳ Prices 1 Min
+- ✅ Historical TSX prices 
 
 
 ### Stock Market
-- Most Active
-- Most Gainer
-- Most Loser
-- NYSE Trading Hours
-- Sectors Performance
+- ⏳ Most Active
+- ⏳  Most Gainer
+- ⏳  Most Loser
+- ⏳ NYSE Trading Hours
+- ⏳ Sectors Performance
 
 
  ### Cryptocurrencies
-- Price Real-time
-- :white_check_mark: Historical Crypto Quote 1/5/15min
+- ⏳ Price 
+- ✅ Historical Crypto Quote 
 
 
 ### Forex (FX)
-- Price Real-time
-- :white_check_mark: Historical Forex Quote 1/5/15min
+- ⏳  Price 
+- ✅ Historical Forex Quote 
 
