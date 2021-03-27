@@ -1,3 +1,12 @@
+# Usage 
+
+This repository contains the OpenApi generator(s), if you only want to use the client libraries, please follow one of the links bellow
+
+## Client Libraries
+- [Python Client](https://github.com/GoPlan-Finance/financialmodelingprep-openapi-python)
+- [Javascript / Typescript Client](https://github.com/GoPlan-Finance/financialmodelingprep-openapi-js)
+
+
 
 
 ## Status
