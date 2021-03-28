@@ -13,11 +13,16 @@ info:
 tags:
   - name: history
     description: History
+  - name: company_valuation
+    description: Company Valuation
   - name: list
     description: List
 security:
   - api_key: []
 paths:
+  /profile/{symbol}:
+    $ref: "./paths/profile.yaml"
+
   /{type}/list:
     $ref: "./paths/list.yaml"
 
@@ -44,7 +49,8 @@ components:
       $ref: "./schemas/OHVCVPrices.yaml"
     OHVCVPrice:
       $ref: "./schemas/OHVCVPrice.yaml"
-
+    CompanyProfile:
+      $ref: "./schemas/CompanyProfile.yaml"
 
 
 

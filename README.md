@@ -15,7 +15,7 @@ If your favorite language is not listed above, feel free to open an Issue or sub
 - ⏳ Will be implemented soon
 
 ### Company Valuation
-- ⏳ Profile
+- ✅ Profile
 - ⏳ Quote 
 - ⏳ Key Executives
 - Search 

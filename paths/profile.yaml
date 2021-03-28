@@ -1,0 +1,24 @@
+get:
+  tags:
+    - company_valuation
+  summary: Get the Company profile
+  parameters:
+    - name: symbol
+      in: path
+      description: Name of ticker
+      required: true
+      schema:
+        type: string
+  description: ''
+  operationId: Profile
+  responses:
+    '200':
+      description: successful operation
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../schemas/CompanyProfile.yaml'
+    '405':
+      description: Invalid input
