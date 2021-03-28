@@ -15,99 +15,17 @@ tags:
     description: History
   - name: list
     description: List
-paths:
-  /{type}/list:
-    get:
-      tags:
-        - list
-      summary: Get list of symbols
-      parameters:
-        - name: type
-          in: path
-          description: Type of symbols to list
-          required: true
-          schema:
-            type: string
-            enum: [stock, available-traded, etf]
-      description: ''
-      operationId: ListSymbols
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                type: array
-                items:
-                  $ref: '#/components/schemas/Symbol'
-        '405':
-          description: Invalid input
-  /historical-price-full/{symbol}:
-    get:
-      tags:
-        - history
-      summary: Get Ticker price
-      parameters:
-        - name: symbol
-          in: path
-          description: Name of ticker
-          required: true
-          schema:
-            type: string
-        - name: from
-          in: query
-          description: From date
-          required: false
-          schema:
-            type: date
-        - name: to
-          in: query
-          description: To date
-          required: false
-          schema:
-            type: date
-      description: ''
-      operationId: DailyPrices
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/EndOfDayPriceHistory'
-        '405':
-          description: Invalid input
-  /historical-chart/{resolution}/{symbol}:
-    get:
-      tags:
-        - history
-      summary: Get Ticker price
-      parameters:
-        - name: symbol
-          in: path
-          description: Name of ticker
-          required: true
-          schema:
-            type: string
-        - name: resolution
-          in: path
-          description: Time resolution
-          required: true
-          schema:
-            type: string
-            enum: [1min, 5min, 15min, 30min, 1hour, 4hour]
-      description: ''
-      operationId: IntraDayPrices
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/OHVCVPrices'
-
 security:
   - api_key: []
+paths:
+  /{type}/list:
+    $ref: "./paths/list.yaml"
+
+  /historical-price-full/{symbol}:
+    $ref: "./paths/historicalPriceFull.yaml"
+
+  /historical-chart/{resolution}/{symbol}:
+    $ref: "./paths/historicalChart.yaml"
 
 components:
   securitySchemes:
@@ -117,89 +35,16 @@ components:
       in: query
   schemas:
     Symbol:
-      required:
-        - symbol
-        - name
-        - price
-        - exchange
-      properties:
-        symbol:
-          type: string
-        name:
-          type: string
-        price:
-          type: number
-        exchange:
-          type: string
-
+      $ref: "./schemas/Symbol.yaml"
     EndOfDayPriceHistory:
-      properties:
-        symbol:
-          type: string
-        historical:
-          type: array
-          items:
-            $ref: '#/components/schemas/EndOfDayPrice'
+      $ref: "./schemas/EndOfDayPriceHistory.yaml"
     EndOfDayPrice:
-      required:
-        - date
-        - open
-        - high
-        - low
-        - close
-        - volume
-      properties:
-        date:
-          type: string
-          format: date
-        open:
-          type: number
-        high:
-          type: number
-        low:
-          type: number
-        close:
-          type: number
-        adjClose:
-          type: number
-        volume:
-          type: number
-        unadjustedVolume:
-          type: number
-        change:
-          type: number
-        vwap:
-          type: number
-        label:
-          type: string
-        changeOverTime:
-          type: number
+      $ref: "./schemas/EndOfDayPrice.yaml"
     OHVCVPrices:
-      type: array
-      items:
-        $ref: '#/components/schemas/OHVCVPrice'
+      $ref: "./schemas/OHVCVPrices.yaml"
     OHVCVPrice:
-      required:
-        - date
-        - open
-        - high
-        - low
-        - close
-        - volume
-      properties:
-        date:
-          type: string
-          format: datetime
-        open:
-          type: number
-        high:
-          type: number
-        low:
-          type: number
-        close:
-          type: number
-        volume:
-          type: number
+      $ref: "./schemas/OHVCVPrice.yaml"
+
 
 
 

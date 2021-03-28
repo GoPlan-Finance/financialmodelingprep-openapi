@@ -1,0 +1,25 @@
+get:
+  tags:
+    - list
+  summary: Get list of symbols
+  parameters:
+    - name: type
+      in: path
+      description: Type of symbols to list
+      required: true
+      schema:
+        type: string
+        enum: [stock, available-traded, etf]
+  description: ''
+  operationId: ListSymbols
+  responses:
+    '200':
+      description: successful operation
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../schemas/Symbol.yaml'
+    '405':
+      description: Invalid input

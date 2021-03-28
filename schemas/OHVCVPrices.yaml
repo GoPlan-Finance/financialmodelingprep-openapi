@@ -1,0 +1,24 @@
+type: array
+items:
+  required:
+    - date
+    - open
+    - high
+    - low
+    - close
+    - volume
+properties:
+  date:
+    type: string
+    format: datetime
+  open:
+    type: number
+  high:
+    type: number
+  low:
+    type: number
+  close:
+    type: number
+  volume:
+    type: number
+

@@ -1,0 +1,33 @@
+required:
+  - date
+  - open
+  - high
+  - low
+  - close
+  - volume
+properties:
+  date:
+    type: string
+    format: date
+  open:
+    type: number
+  high:
+    type: number
+  low:
+    type: number
+  close:
+    type: number
+  adjClose:
+    type: number
+  volume:
+    type: number
+  unadjustedVolume:
+    type: number
+  change:
+    type: number
+  vwap:
+    type: number
+  label:
+    type: string
+  changeOverTime:
+    type: number

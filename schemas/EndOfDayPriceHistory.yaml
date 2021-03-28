@@ -1,0 +1,7 @@
+properties:
+  symbol:
+    type: string
+  historical:
+    type: array
+    items:
+      $ref: '../schemas/EndOfDayPrice.yaml'

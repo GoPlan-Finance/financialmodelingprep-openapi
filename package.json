@@ -1,0 +1,24 @@
+{
+  "name": "financialmodelingprep-openapi",
+  "version": "0.1.0",
+  "description": "Financial Modeling Prep OpenApi generator",
+  "main": "index.js",
+  "scripts": {
+    "generate": "npm run generate-js && npm run generate-python",
+    "generate-js": "openapi-generator-cli generate -g typescript-axios -i FMP.yaml -o languages/javascript/src/ && cd languages/javascript && npm i && npm run build",
+    "generate-python": "openapi-generator-cli generate -g python -i FMP.yaml -o languages/python/src/ && cd languages/python"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoPlan-Finance/financialmodelingprep-openapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi/issues"
+  },
+  "homepage": "https://github.com/GoPlan-Finance/financialmodelingprep-openapi#readme",
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.2.3"
+  }
+}

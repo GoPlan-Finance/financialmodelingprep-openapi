@@ -1,0 +1,15 @@
+
+required:
+  - symbol
+  - name
+  - price
+  - exchange
+properties:
+  symbol:
+    type: string
+  name:
+    type: string
+  price:
+    type: number
+  exchange:
+    type: string
