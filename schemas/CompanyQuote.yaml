@@ -1,0 +1,69 @@
+required:
+  - symbol
+  - name
+  - price
+  - changesPercentage
+  - change
+  - dayLow
+  - dayHigh
+  - yearHigh
+  - yearLow
+  - marketCap
+  - priceAvg50
+  - priceAvg200
+  - volume
+  - avgVolume
+  - exchange
+  - open
+  - previousClose
+  - eps
+  - pe
+  - earningsAnnouncement
+  - timestamp
+
+properties:
+  symbol:
+    type: string
+  name:
+    type: string
+  price:
+    type: number
+  changesPercentage:
+    type: number
+  change:
+    type: number
+  dayLow:
+    type: number
+  dayHigh:
+    type: number
+  yearHigh:
+    type: number
+  yearLow:
+    type: number
+  marketCap:
+    type: number
+  priceAvg50:
+    type: number
+  priceAvg200:
+    type: number
+  volume:
+    type: number
+  avgVolume:
+    type: number
+  exchange:
+    type: string
+  open:
+    type: number
+  previousClose:
+    type: number
+  eps:
+    type: number
+  pe:
+    type: number
+  earningsAnnouncement:
+    type: string
+    format: datetime
+  sharesOutstanding:
+    type: number
+  timestamp:
+    type: number

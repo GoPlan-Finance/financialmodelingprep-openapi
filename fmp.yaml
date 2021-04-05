@@ -23,6 +23,9 @@ paths:
   /profile/{symbol}:
     $ref: "./paths/profile.yaml"
 
+  /quote/{symbol}:
+    $ref: "./paths/quote.yaml"
+
   /{type}/list:
     $ref: "./paths/list.yaml"
 

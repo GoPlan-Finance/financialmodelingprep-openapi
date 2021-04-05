@@ -8,15 +8,21 @@ This repository contains the OpenApi generator(s), if you only want to use the c
 
 If your favorite language is not listed above, feel free to open an Issue or submit a PR ! 
 
+## Re-generating libraries
 
-## Status
+```bash
+# You need Java JRE installed before running this
+npm run generate
+```
+
+# Status
 - ✅  Fully implemented
-- 🟨   Partially implemented
+- 🟨 Partially implemented
 - ⏳ Will be implemented soon
 
 ### Company Valuation
 - ✅ Profile
-- ⏳ Quote 
+- ✅ Quote 
 - ⏳ Key Executives
 - Search 
 - Financials ZIP
